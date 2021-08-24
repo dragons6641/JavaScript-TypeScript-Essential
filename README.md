@@ -1,4 +1,5 @@
 [Reboot] 김민태의 프론트엔드 아카데미 : 제 1강 JavaScript & TypeScript Essential
+
 2021-08-23(월) ~ 2021-09-12(일)
 
 ● 8/23(월) ~ 8/27(금) :
