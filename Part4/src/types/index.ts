@@ -1,6 +1,6 @@
 import View from "../core/view";
 
-export interface News {
+export default interface News {
   readonly id: number;
   readonly time_ago: string;
   readonly title: string;
@@ -25,19 +25,19 @@ export interface NewsComment extends News {
 }
 
 export interface NewsStore {
-  hasFeeds: boolean;
+  readonly hasFeeds: boolean;
   currentPage: number;
-  numberOfFeed: number;
-  prevPage: number;
-  nextPage: number;
-  getFeed: (position: number) => NewsFeed;
-  getAllFeeds: () => NewsFeed[];
-  setFeeds: (feeds: NewsFeed[]) => void;
-  makeRead: (id: number) => void;
+  readonly numberOfFeed: number;
+  readonly prevPage: number;
+  readonly nextPage: number;
+  readonly getFeed: (position: number) => NewsFeed;
+  readonly getAllFeeds: () => NewsFeed[];
+  readonly setFeeds: (feeds: NewsFeed[]) => void;
+  readonly makeRead: (id: number) => void;
 }
 
 export interface RouteInfo {
-  path: string;
-  page: View;
-  params: RegExp | null;
+  readonly path: string;
+  readonly page: View;
+  readonly params: RegExp | null;
 }

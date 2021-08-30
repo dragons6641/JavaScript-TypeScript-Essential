@@ -12,8 +12,13 @@ const applyApiMixins = (targetClass: any, baseClasses: any[]): void => {
       if (descriptor) {
         Object.defineProperty(targetClass.prototype, name, descriptor);
       }
+
+      return;
     });
+
+    return;
   });
+
   return;
 };
 

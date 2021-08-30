@@ -3,8 +3,8 @@ import View from "./view";
 
 export default class Router {
   private isStart: boolean;
-  private defaultRoute: RouteInfo | null;
-  private routeTable: RouteInfo[];
+  public defaultRoute: RouteInfo | null;
+  public routeTable: RouteInfo[];
 
   constructor() {
     window.addEventListener(`hashchange`, this.route.bind(this));
@@ -42,6 +42,7 @@ export default class Router {
 
     if (routePath === `` && this.defaultRoute) {
       this.defaultRoute.page.render();
+
       return;
     }
 

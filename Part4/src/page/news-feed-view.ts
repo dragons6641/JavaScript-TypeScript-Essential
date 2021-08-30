@@ -2,7 +2,7 @@ import View from "../core/view";
 import { NewsFeedApi } from "../core/api";
 import { NewsStore } from "../types";
 
-const template = `
+const template: string = `
 <div class="bg-gray-600 min-h-screen">
     <div class="bg-white text-xl">
         <div class="mx-auto px-4">

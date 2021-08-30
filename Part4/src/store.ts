@@ -11,7 +11,7 @@ export default class Store implements NewsStore {
     return;
   }
 
-  get currentPage() {
+  get currentPage(): number {
     return this._currentPage;
   }
 
@@ -37,21 +37,21 @@ export default class Store implements NewsStore {
     return;
   }
 
-  getFeed = (position: number): NewsFeed => {
+  public getFeed = (position: number): NewsFeed => {
     return this.feeds[position];
   };
 
-  getAllFeeds = (): NewsFeed[] => {
+  public getAllFeeds = (): NewsFeed[] => {
     return this.feeds;
   };
 
-  setFeeds = (feeds: NewsFeed[]): void => {
+  public setFeeds = (feeds: NewsFeed[]): void => {
     this.feeds = feeds.map((feed) => ({ ...feed, read: false }));
 
     return;
   };
 
-  makeRead = (id: number): void => {
+  public makeRead = (id: number): void => {
     const feed: NewsFeed | undefined = this.feeds.find(
       (feed: NewsFeed) => feed.id === id
     );

@@ -19,6 +19,8 @@ export default class Api {
     this.xhr.open(`GET`, this.url);
     this.xhr.addEventListener(`load`, () => {
       cb(JSON.parse(this.xhr.response) as AjaxResponse);
+
+      return;
     });
     this.xhr.send();
 
@@ -42,7 +44,7 @@ export default class Api {
   */
 
   protected request = async <AjaxResponse>(): Promise<AjaxResponse> => {
-    const response = await fetch(this.url);
+    const response: Response = await fetch(this.url);
 
     return (await response.json()) as AjaxResponse;
   };
