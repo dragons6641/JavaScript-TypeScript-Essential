@@ -46,6 +46,7 @@ class Person {
     return `${this._bloodType} 형`;
   }
 }
+
 const p1 = new Person("B");
 
 p1.bloodType;
