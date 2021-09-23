@@ -45,6 +45,7 @@ export interface IUserProfile extends IUser {
   github?: string;
   twitter?: string;
 }
+
 export type TuserProfile = IUser & {
   profileImage: string;
   github?: string;
