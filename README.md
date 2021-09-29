@@ -41,7 +41,7 @@
 
 # 파일/디렉토리 구조
 
-![0.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/87b0418b-d7da-45d5-bacc-dcad054479e8/0.jpg)
+![0](https://user-images.githubusercontent.com/43373202/135227729-f5d85e88-a6fb-4dbd-9df3-26f01ad10f93.jpg)
 
 - `src` : 자주 사용하는 소스 코드를 모아둔 디렉토리입니다.
     - `src/core` : 공통적으로 사용하는 소스 코드를 모아둔 디렉토리입니다.
@@ -76,7 +76,7 @@ yarn global add parcel-bundler
 npm install -g parcel-bundler
 ```
 
-![1.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/502f92ec-b7b4-43c4-a5af-10a271dd78df/1.jpg)
+![1](https://user-images.githubusercontent.com/43373202/135227780-33dd5ceb-f88f-4354-a75e-2b431fc4c032.jpg)
 
 ## 2. 프로젝트 세팅
 
@@ -85,14 +85,14 @@ npm install -g parcel-bundler
 - VSCode 에디터의 터미널에서 디렉토리를 `Part4` 폴더의 위치로 변경합니다.
 - 터미널에 `npm install` 명령어를 입력하여 `package.json` 파일에 나열된 모든 패키지를 설치합니다.
 
-![2.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/892816f3-5440-4908-8888-b44ab21ed5bb/2.jpg)
+![2](https://user-images.githubusercontent.com/43373202/135227820-48c0bace-7355-420b-a81a-20a7bb4e293f.jpg)
 
 ## 3. 프로젝트 실행
 
 - 터미널에서 `parcel index.html` 명령어를 입력하면 프로젝트를 실행할 수 있습니다.
 - 크롬 브라우저에서 [http://localhost:1234](http://localhost:1234) 주소로 접속하면 프로젝트의 실행 결과를 확인할 수 있습니다.
 
-![3.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/27579bb2-df14-4a08-86f0-0d73a72f7038/3.jpg)
+![3](https://user-images.githubusercontent.com/43373202/135227850-40d9d944-4d6b-4b90-a022-d6e8b6486e97.jpg)
 
 # 실행 결과
 
@@ -102,7 +102,7 @@ npm install -g parcel-bundler
 - 뉴스 제목, 뉴스 작성자의 id, 좋아요 갯수, 뉴스 작성 시각, 댓글 갯수를 표시합니다.
 - 뉴스 제목을 클릭하면 개별 뉴스를 조회할 수 있습니다.
 
-![4.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bf62b407-afad-49ee-a3ad-781a053acc88/4.jpg)
+![4](https://user-images.githubusercontent.com/43373202/135227880-6ae52e61-9481-4a31-b17c-60ad03fa5284.jpg)
 
 ## 2. 개별 뉴스 조회
 
@@ -110,13 +110,13 @@ npm install -g parcel-bundler
 - 댓글/답글이 달린 시각을 표시하고, 들여쓰기로 댓글과 답글을 구분할 수 있도록 했습니다.
 - 우측 상단 `X` 버튼을 누르면 뉴스 목록 조회 화면으로 이동합니다.
 
-![5.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9c230c04-698e-46e9-ad63-7947ae03d3b8/5.jpg)
+![5](https://user-images.githubusercontent.com/43373202/135227904-e1b37e7a-6c5a-44de-9aa7-334fb509f9c5.jpg)
 
 ## 3. 읽음 상태 표시
 
 - 사용자가 아직 한 번도 읽지 않은 뉴스는 흰색 배경으로, 사용자가 한 번이라도 읽은 뉴스는 빨간색 배경으로 표시합니다.
 
-![6.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0a161276-181c-44dd-acf3-1b1b11554561/6.jpg)
+![6](https://user-images.githubusercontent.com/43373202/135227928-c6415f79-0705-4b0a-bca5-7585f680fa33.jpg)
 
 ## 4. 페이징
 
@@ -124,6 +124,6 @@ npm install -g parcel-bundler
 - 화면 우측 상단 `Previous` 버튼을 누르면 이전 페이지로, `Next` 버튼을 누르면 다음 페이지로 이동합니다.
 - 페이지를 이동하면 브라우저 주소창의 페이지 번호가 변경되는 것을 확인할 수 있습니다.
 
-![7.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d048b5a4-d468-4b6b-b48d-1b4c4a7fbc02/7.jpg)
+![7](https://user-images.githubusercontent.com/43373202/135227962-cfc908b6-157f-49ba-8aed-9de06899c771.jpg)
 
 ---
